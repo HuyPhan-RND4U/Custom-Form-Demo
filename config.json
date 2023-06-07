@@ -1,0 +1,12 @@
+{
+  "envs" : {
+    "DEV" : {
+      "seeddata" : "https://e2e-aws-staging.pricefx.com/"
+    },
+    "QA" : { },
+    "PROD" : { }
+  },
+  "keepLabelsIntact" : false,
+  "keepUserGroups" : false,
+  "keepDataEntitlements" : false
+}
