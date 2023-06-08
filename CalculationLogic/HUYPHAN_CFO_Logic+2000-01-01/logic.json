@@ -1,0 +1,20 @@
+{
+  "elements" : [ {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 0,
+    "elementGroups" : [ ],
+    "elementName" : "Inputs",
+    "elementTimeout" : 0,
+    "excludeFromExport" : false,
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "protectedExpression" : false,
+    "summarize" : false
+  } ],
+  "formulaNature" : "customFormHeader",
+  "inputDescriptors" : [ ],
+  "status" : "ACTIVE",
+  "uniqueName" : "HUYPHAN_CFO_Logic",
+  "validAfter" : "2000-01-01"
+}

@@ -1,0 +1,50 @@
+{
+  "configuration": {
+    "name": "Default CFO config",
+    "steps": [
+      {
+        "name": "step1",
+        "labelTranslations": {
+          "": "Step 1"
+        },
+        "icon": "bars",
+        "tabs": [
+          {
+            "name": "tab1",
+            "labelTranslations": {
+              "": "Tab 1"
+            },
+            "type": "details"
+          }
+        ],
+        "hiddenCheck": {
+          "fieldName": "attribute1",
+          "operator": "equals",
+          "value": "DISABLE"
+        }
+      },
+      {
+        "name": "step2",
+        "labelTranslations": {
+          "": "Step 2"
+        },
+        "icon": "bell",
+        "tabs": [
+          {
+            "name": "tab1",
+            "labelTranslations": {
+              "": "Tab 1"
+            },
+            "type": "documents"
+          }
+        ]
+      }
+    ]
+  },
+  "embedded": false,
+  "headerFormulaName": "HUYPHAN_CFO_Logic",
+  "label": "HUYPHAN CFO ",
+  "module": "PRICESETTING",
+  "supportedParentTypeCodes": [],
+  "uniqueName": "HUYPHAN_CFO"
+}

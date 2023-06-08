@@ -1,0 +1,19 @@
+{
+  "elements" : [ {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementName" : "POMargin",
+    "elementTimeout" : 0,
+    "excludeFromExport" : false,
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "protectedExpression" : false,
+    "summarize" : false
+  } ],
+  "inputDescriptors" : [ ],
+  "status" : "ACTIVE",
+  "uniqueName" : "CFG_HuyPhanCFO",
+  "validAfter" : "2000-01-01"
+}
