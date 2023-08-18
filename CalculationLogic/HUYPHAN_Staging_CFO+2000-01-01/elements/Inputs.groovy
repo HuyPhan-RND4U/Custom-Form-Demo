@@ -4,12 +4,9 @@ if (!customFormProcessor.isPrePhase()) {
 
 def inputMap = api.inputBuilderFactory().createConfiguratorInputBuilder(
         "pricingConfigurator",
-        "CFG_HuyPhanCFO",
+        "CFG_HUYPHAN_STAGING",
         true
 )
-        .setValue([
-                typedId: api.currentItem().typedId
-        ])
         .buildMap()
 
 customFormProcessor.addOrUpdateInput("ROOT", inputMap)

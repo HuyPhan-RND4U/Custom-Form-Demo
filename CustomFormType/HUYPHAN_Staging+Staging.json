@@ -1,0 +1,7 @@
+{
+  "embedded" : true,
+  "headerFormulaName" : "HUYPHAN_Staging_CFO",
+  "label" : "Staging",
+  "supportedParentTypeCodes" : [ "CUSTOM_FORM", "AGREEMENTSPROMOTIONS" ],
+  "uniqueName" : "HUYPHAN_Staging"
+}

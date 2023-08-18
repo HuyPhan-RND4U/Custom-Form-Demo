@@ -3,41 +3,76 @@
     "name": "Default CFO config",
     "steps": [
       {
-        "name": "step1",
-        "labelTranslations": {
-          "": "Step 1"
-        },
-        "icon": "bars",
+        "icon": "pen",
+        "name": "pricing",
         "tabs": [
           {
-            "name": "tab1",
-            "labelTranslations": {
-              "": "Tab 1"
-            },
+            "icon": "database",
+            "name": "staging",
+            "translationKey": "Staging",
+            "type": "customForms",
+            "typeReference": "HUYPHAN_Staging",
+            "hiddenCheck": {
+              "fieldName": "userGroupEdit",
+              "operator": "contains",
+              "value": "e2e_test_users"
+            }
+          },
+          {
+            "icon": "calculator",
+            "name": "pricing",
+            "translationKey": "Pricing",
             "type": "details"
+          },
+          {
+            "icon": "chart-line",
+            "name": "summary",
+            "translationKey": "Summary",
+            "type": "dashboard",
+            "typeReference": "CustomFormSummary",
+            "parameterMapping": {
+              "typedId": "typedId"
+            }
           }
         ],
-        "hiddenCheck": {
-          "fieldName": "attribute1",
-          "operator": "equals",
-          "value": "DISABLE"
-        }
+        "translationKey": "Pricing"
       },
       {
-        "name": "step2",
-        "labelTranslations": {
-          "": "Step 2"
-        },
-        "icon": "bell",
+        "icon": "eye",
+        "name": "actions",
         "tabs": [
           {
-            "name": "tab1",
-            "labelTranslations": {
-              "": "Tab 1"
-            },
+            "icon": "comment-alt-message",
+            "name": "messages",
+            "translationKey": "Messages",
+            "type": "messages"
+          },
+          {
+            "icon": "clipboard-notes",
+            "name": "notes",
+            "translationKey": "Notes",
+            "type": "notes"
+          },
+          {
+            "icon": "folder-open",
+            "name": "attachments",
+            "translationKey": "Attachments",
             "type": "documents"
+          },
+          {
+            "icon": "process",
+            "name": "workflow",
+            "translationKey": "Workflow",
+            "type": "workflow"
+          },
+          {
+            "icon": "sync",
+            "name": "workflowHistory",
+            "translationKey": "Workflow History",
+            "type": "workflowHistory"
           }
-        ]
+        ],
+        "translationKey": "Actions"
       }
     ]
   },
@@ -45,6 +80,5 @@
   "headerFormulaName": "HUYPHAN_CFO_Logic",
   "label": "HUYPHAN CFO ",
   "module": "PRICESETTING",
-  "supportedParentTypeCodes": [],
   "uniqueName": "HUYPHAN_CFO"
 }

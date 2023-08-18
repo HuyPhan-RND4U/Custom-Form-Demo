@@ -2,7 +2,7 @@
   "elements" : [ {
     "allowOverride" : false,
     "combinationType" : "FUNCTION",
-    "displayOptions" : 0,
+    "displayOptions" : 16,
     "elementGroups" : [ ],
     "elementName" : "Inputs",
     "elementTimeout" : 0,
@@ -27,6 +27,6 @@
   "formulaNature" : "customFormHeader",
   "inputDescriptors" : [ ],
   "status" : "ACTIVE",
-  "uniqueName" : "HUYPHAN_CFO_Logic",
+  "uniqueName" : "HUYPHAN_Staging_CFO",
   "validAfter" : "2000-01-01"
 }

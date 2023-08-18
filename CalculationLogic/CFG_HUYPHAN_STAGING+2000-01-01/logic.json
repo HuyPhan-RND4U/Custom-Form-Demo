@@ -4,7 +4,7 @@
     "combinationType" : "FUNCTION",
     "displayOptions" : 0,
     "elementGroups" : [ ],
-    "elementName" : "Inputs",
+    "elementName" : "POData",
     "elementTimeout" : 0,
     "excludeFromExport" : false,
     "hideOnNull" : false,
@@ -16,7 +16,19 @@
     "combinationType" : "FUNCTION",
     "displayOptions" : 16,
     "elementGroups" : [ ],
-    "elementName" : "Outputs",
+    "elementName" : "POMatrixInput",
+    "elementTimeout" : 0,
+    "excludeFromExport" : false,
+    "hideOnNull" : false,
+    "hideWarnings" : false,
+    "protectedExpression" : false,
+    "summarize" : false
+  }, {
+    "allowOverride" : false,
+    "combinationType" : "FUNCTION",
+    "displayOptions" : 16,
+    "elementGroups" : [ ],
+    "elementName" : "SelectedRows",
     "elementTimeout" : 0,
     "excludeFromExport" : false,
     "hideOnNull" : false,
@@ -24,9 +36,8 @@
     "protectedExpression" : false,
     "summarize" : false
   } ],
-  "formulaNature" : "customFormHeader",
   "inputDescriptors" : [ ],
   "status" : "ACTIVE",
-  "uniqueName" : "HUYPHAN_CFO_Logic",
+  "uniqueName" : "CFG_HUYPHAN_STAGING",
   "validAfter" : "2000-01-01"
 }

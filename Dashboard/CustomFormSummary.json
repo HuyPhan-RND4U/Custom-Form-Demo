@@ -1,0 +1,10 @@
+{
+  "configuration" : {
+    "formulaName" : "DB_CustomFormHuyPhan",
+    "inputs" : [ ]
+  },
+  "dynamicInputs" : false,
+  "hide" : false,
+  "labelTranslations" : { },
+  "uniqueName" : "CustomFormSummary"
+}
