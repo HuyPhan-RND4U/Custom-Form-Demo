@@ -1,0 +1,65 @@
+{
+  "configuration": {
+    "name": "default",
+    "tabs": [
+      {
+        "name": "header",
+        "translationKey": "sfdc_quotes_tabs_header",
+        "type": "header"
+      },
+      {
+        "icon": "calculator",
+        "name": "customObject",
+        "translationKey": "Custom Form",
+        "type": "customForms",
+        "typeReference": "HUYPHAN_Staging"
+      },
+      {
+        "name": "items",
+        "translationKey": "sfdc_quotes_tabs_items",
+        "type": "items"
+      },
+      {
+        "name": "attachments",
+        "translationKey": "sfdc_quotes_tabs_attachments",
+        "type": "attachments"
+      },
+      {
+        "icon": "folder-open",
+        "name": "documents",
+        "translationKey": "dynamicTab_documents",
+        "type": "documents"
+      },
+      {
+        "name": "messages",
+        "translationKey": "sfdc_entity_tabs_messages",
+        "type": "messages",
+        "userGroupEdit": "sales_managers"
+      },
+      {
+        "name": "workflow",
+        "translationKey": "sfdc_quotes_tabs_workflow",
+        "type": "workflow"
+      },
+      {
+        "name": "workflow-history",
+        "translationKey": "sfdc_quotes_tabs_workflowHistory",
+        "type": "workflowHistory"
+      },
+      {
+        "name": "dashboard",
+        "parameterMapping": {
+          "Customer": "customerId",
+          "Date User Entry": "targetDate"
+        },
+        "parameters": {
+          "String User Entry": "This is string value"
+        },
+        "translationKey": "common_dashboard",
+        "type": "dashboard",
+        "typeReference": "InputsOnly"
+      }
+    ]
+  },
+  "uniqueName": "HUYPHAN_QUOTE"
+}

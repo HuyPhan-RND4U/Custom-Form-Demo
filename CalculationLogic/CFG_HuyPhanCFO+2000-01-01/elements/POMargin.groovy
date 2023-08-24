@@ -1,4 +1,9 @@
 String typedId = api.input("typedId")
+
+if (!typedId) {
+    return api.abortCalculation()
+}
+
 Object stagingCFO = api.find(
         'CFO',
         0,
@@ -10,10 +15,10 @@ Object stagingCFO = api.find(
         Filter.equal("uniqueName", "staging"),
         Filter.equal("parentTypedId", typedId),
 ).collect {
-        it.selectedPOMargin = api.jsonDecode(it.outputsJson)?.rows?.result?.entries ?: []
+    it.selectedPOMargin = api.jsonDecode(it.outputsJson)?.rows?.result?.entries ?: []
 
-        return it
+    return it
 }
-.find()
+        .find()
 
-return stagingCFO.selectedPOMargin
+return stagingCFO?.selectedPOMargin ?: []
